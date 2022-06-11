@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="Intro-component.css">
+    <link rel="stylesheet" href="Intro-component.css">
+    <title>Intro Component Signup Form</title>
+</head>
+<style>
+    body {
+        background-image: url('./Image/bg-intro-desktop.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+</style>
+
+<body>
+
+    <div class="parent-container">
+        <div class="left-container">
+            <p class="left-para">
+
+                <p class="left-para1">
+                    <h1>Learn to code by<br> watching others</h1>
+                </p>
+                <p class="left-para2">
+                    <h4>See how experienced developers solve problem in real-time. <br> Watching scripted tutorials is great, but understanding how <br> developers think is invaluable.</h4>
+                </p>
+            </p>
+        </div>
+
+        <div class="right-container">
+
+            <button class="right-cont-butt" type="button"><b>Try if free 7 days</b> then $20/mo.thereafter </button>
+
+            <form action="/action_page.php">
+
+                <div class="container">
+
+
+                    <label for="firstname"></label>
+                    <input type="text" placeholder="First Name" name="firstname" id="firstname" required>
+
+                    <label for="lastname"></label>
+                    <input type="text" placeholder="Last Name" name="lastname" id="lastname" required>
+
+                    <label for="email"></label>
+                    <input type="text" placeholder="Email Address" name="email" id="email" required>
+
+                    <label for="psw"></label>
+                    <input type="password" placeholder="Password" name="psw" id="psw" required>
+
+                    <button type="submit" onclick="emailValid()" class=" claim-free ">Claim your free trial</button>
+
+
+                    <p>By clicking the button, you are agreeing to our <a href="# ">Terms & Services</a>.</p>
+
+
+                </div>
+
+
+            </form>
+
+
+
+        </div>
+    </div>
+
+    <script src="Intro-component.js " type="text/javascript ">
+    </script>
+</body>
+
+</html>

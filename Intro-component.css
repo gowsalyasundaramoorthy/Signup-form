@@ -1,0 +1,112 @@
+        body {
+            background-color: hsl(0, 100%, 74%);
+            font-size: 16px;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .left-container {
+            color: #ffffff;
+            width: 1440px;
+            text-align: center;
+            margin-top: 400px;
+            margin-left: 10px;
+        }
+        
+        .left-para {
+            align-items: center;
+        }
+        
+        .left-para1 {
+            width: 200px;
+            margin-left: 30px;
+        }
+        
+        .right-cont-butt {
+            background-color: hsl(247, 36%, 42%);
+            color: white;
+        }
+        
+        .right-container {
+            box-sizing: border-box;
+            max-width: 30%;
+        }
+        
+        .right-cont-butt {
+            margin-bottom: 20px;
+            width: 100%;
+            font-weight: 700;
+            padding: 15px;
+            border-radius: 15px;
+        }
+        
+        .container {
+            padding: 16px;
+            background-color: white;
+            border-radius: 15px;
+        }
+        
+        input[type=text],
+        input[type=password] {
+            width: 90%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+        
+        input[type=text]:focus,
+        input[type=password]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+        
+        .claim-free {
+            background-color: #04AA6D;
+            color: white;
+            padding: 16px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 95%;
+            opacity: 0.9;
+        }
+        
+        .claim-free:hover {
+            opacity: 1;
+        }
+        
+        a {
+            color: rgb(183, 16, 16);
+        }
+        
+        .parent-container {
+            display: flex;
+            width: 100%;
+        }
+        
+        .left-container {
+            flex: 1;
+            border: none;
+            margin: 100px;
+            text-align: center;
+            align-items: center;
+        }
+        
+        .right-container {
+            flex: 1;
+            border: none;
+            margin: 100px;
+        }
+        
+        @media screen and (max-width: 992px) {
+            .left-container {
+                width: 50%;
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            .left-container {
+                width: 100%;
+            }
+        }
